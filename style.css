@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(220, 255, 239);
+}
+.header{
+    width: auto;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.068);
+    display: flex;
+    justify-content: space-between;
+}
+.content1{
+width: auto;
+height: auto;
+background-color: chartreuse;
+display: flex;
+/* flex-wrap: wrap; */
+}
+.block {
+width: 350px;
+height: 350px;
+border: 2px solid orange;
+/* margin-top: 50px;
+margin-bottom: 100px;
+margin-left: 50px;
+margin-right: 100px; */
+margin: 100px 50px 100px 50px ;
+border-radius: 20%;
+}
+.block.hover{
+    border-radius: 10%;
+    border: 1px solid purple;
+}
+.one{
+    background-color: cadetblue;
+    transition: 300ms;
+}
+.one:hover{
+    border-radius: 10%;
+    border: 1px solid purple;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: purple;
+}
+.four{
+    background-color: darkgoldenrod;
+}
